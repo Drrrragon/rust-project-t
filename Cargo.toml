@@ -1,0 +1,8 @@
+[package]
+name = "rust-project-t"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "^1.39.2", features = ["full"] }
+crossterm = { version = "^0.28.1"}
